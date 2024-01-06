@@ -113,12 +113,14 @@ table {
 #buttonbombe {
   width: 50px;
   height: 50px;
+  font-size: 150%;
 }
 
 #buttonchiffre {
   background: rgb(5, 116, 207);
   width: 50px;
   height: 50px;
+  font-size: 150%;
 }
 
 #buttonrien {
