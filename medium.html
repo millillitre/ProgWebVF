@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+
+<head>
+    <title>Demineur</title>
+    <link rel="stylesheet" href="demineur.css">
+    <link rel="icon" type="image/png" href="images/bombe.png">
+    <script type="text/javascript" src="demineur.js"></script>
+    <script type="text/javascript" src="medium.js"></script>
+</head>
+
+<body oncontextmenu="return false"> <!--fonction permet de retirer le menu contextuel (click droit)-->
+    <h1>Demineur</h1>
+    <nav class="mode">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a data-value="Easy" id="Easy" href="easy.html">Easy</a></li>
+            <li><a data-value="Medium" id="Medium" href="medium.html" class="activepage">Medium</a></li>
+            <li><a data-value="Hard" id="Hard" href="hard.html">Hard</a></li>
+        </ul>
+    </nav>
+
+    <button type="button" id="Startbutton"
+        onclick="resetGame()">Start/Reset</button>
+
+    <div>
+        Temps restant : <span id="timer"></span>
+    </div>
+    <div>
+        &#128681; : <label id="countdrapeau">
+            <script>gestion_cliques(event)</script>
+        </label>
+    </div>
+
+    <div id="MessageFin"> JOUEZ </div>
+    <br>
+    <table border="1" id="tableNonCache">
+    </table>
+</body>
+
+</html>

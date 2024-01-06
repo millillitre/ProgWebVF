@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+
+<head>
+    <title>Demineur</title>
+    <link rel="icon" type="image/png" href="images/bombe.png">
+    <link rel="stylesheet" href="demineur.css">
+    <script type="text/javascript" src="demineur.js"></script>
+</head>
+
+<body oncontextmenu="return false"> <!--fonction permet de retirer le click droit-->
+
+    <h1>Demineur</h1>
+    <nav class="mode">
+        <ul>
+            <li><a href="index.html" class="activepage">Home</a></li>
+            <li><a data-value="Easy" id="Easy" href="easy.html">Easy</a></li>
+            <li><a data-value="Medium" id="Medium" href="medium.html">Medium</a></li>
+            <li><a data-value="Hard" id="Hard" href="hard.html">Hard</a></li>
+        </ul>
+    </nav>
+    <div id="regles">
+        <h2>REGLES</h2>
+        <p>Le Démineur est un jeu de logique où tu devras déminer un champ de mines sans cliquer sur elles.
+            Le jeu se déroule sur un plateau de cases cachées qui peuvent contenir des mines ou être vides.
+            En révélant une case, tu peux trouver des chiffres indiquant le nombre de mines adjacentes.
+            Tu peux placer des drapeaux sur les cases suspectes.
+            Tu perds si tu cliques sur une mine et gagne en révélant toutes les cases sans mines.
+        </p>
+    </div>
+</body>
+
+</html>
