@@ -322,7 +322,7 @@ function affichageFin(message){
 }
 
 function resetGame(){
-    document.getElementById("MessageFin").innerHTML = "JOUER";
+    document.getElementById("MessageFin").innerHTML = "EN JEU";
     modeChoisi();
     ChangeBack();
     initTable(); // reset la grille et l'affiche
